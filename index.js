@@ -590,7 +590,8 @@ function _help(input, channel) {
   var message =
     'Current commands!\n' +
     ' ===  ===  ===  ===  ===  ===  === \n' +
-    '`add` _text_ : Add song to the queue and start playing if idle. Will start with a fresh queue.\n' +
+    '`add` _text_ : Append a song to the previous playlist and start playing the same list again.\n' +
+    '`addnext` _text_ : Add song to the queue and start playing if idle. Will start with a fresh queue.\n' +
     '`addalbum` _text_ : Add an album to the queue and start playing if idle. Will start with a fresh queue.\n' +
     '`bestof` : _text_ : Add topp 10 tracks by the artist\n' +
     '`status` : show current status of Sonos\n' +
